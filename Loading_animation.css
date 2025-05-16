@@ -15,7 +15,7 @@ body {
   justify-content: center;
   margin: 0;
   min-height: 100vh;
-  background: #FFD1D6; /* Màu nền mới */
+  background: #FFD1D6; 
   overflow: hidden;
 }
 
@@ -31,7 +31,7 @@ body {
   left: 200px;
   width: 50px;
   height: 15px;
-  background: #FFD1D6; /* Trùng với màu nền */
+  background: #FFD1D6; 
 }
 
 .loading-text {
@@ -40,7 +40,7 @@ body {
   font-weight: 300;
   margin: 0;
   white-space: nowrap;
-  color: #A21D33; /* Màu chữ */
+  color: #A21D33; 
 }
 
 .loading-text::before {
@@ -51,7 +51,7 @@ body {
   left: 115px;
   width: 6px;
   height: 6px;
-  background: #A21D33; /* Màu chấm */
+  background: #A21D33; 
   border-radius: 50%;
   animation: dotMove 1800ms cubic-bezier(0.25, 0.25, 0.75, 0.75) infinite;
 }
@@ -60,7 +60,7 @@ body {
   display: inline-block;
   position: relative;
   letter-spacing: 8px;
-  color: #A21D33; /* Màu chữ */
+  color: #A21D33; 
 }
 
 .loading-text .letter:nth-child(1) {
@@ -75,7 +75,7 @@ body {
   left: 0;
   width: 14px;
   height: 36px;
-  background: #FFD1D6; /* Trùng với nền */
+  background: #FFD1D6; 
   transform-origin: 100% 0;
   animation: lineStretch 1800ms cubic-bezier(0.25, 0.25, 0.75, 0.75) infinite;
 }
@@ -92,7 +92,7 @@ body {
   left: 2px;
   width: 9px;
   height: 15px;
-  background: #FFD1D6; /* Trùng với nền */
+  background: #FFD1D6; 
 }
 
 @keyframes dotMove {
