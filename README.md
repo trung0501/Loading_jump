@@ -22,8 +22,28 @@
 
       . lineStretch: Creates a vertical stretch effect for the letter "L".
 
-     3. The effects work together to create a smooth, rhythmic feel when the word “Loading” appears.
+    3. The effects work together to create a smooth, rhythmic feel when the word “Loading” appears.
 
-     4. The effects are split by character position via nth-child(), giving each letter its own separate animation.
+    4. The effects are split by character position via nth-child(), giving each letter its own separate animation.
 
-     5. The whole thing is centered on the screen, adapting well to screen sizes thanks to media queries.
+    5. The whole thing is centered on the screen, adapting well to screen sizes thanks to media queries.
+✅ Advantages:
+
+    . High aesthetics: Use exquisite effects, pleasant colors (pink background, dark red)
+
+    . Good user experience: reduces boredom while waiting for page load.
+
+    . Clear visual feedback: Motion effects help users know the system is operating. 
+
+    . Responsive: The interface is compatible with many screen sizes thanks to Media Queries.
+
+⚠️ Limit:
+
+    . Just a simulation effect: not directly linked to the actual loading process (e.g., regardless of Ajax, API Loading ...). 
+
+    . The limited expansion ability: It is necessary to rewrite or edit a lot if you want to change the content or the animation style.
+
+    . Performance: Although light, but using many effects can cause resources to consume resources on old devices.
+
+    . Depends on CSS: If the browser does not support the full CSS Animations, the effect will not work as expected.
+
